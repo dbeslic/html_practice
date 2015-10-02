@@ -1,3 +1,35 @@
+body {
+  background-image: url('grey.png');
+}
+
+.board {
+  border: thick solid #1D7373;
+  margin: 36px auto;
+}
+
+.square{
+  color: orange;
+  background: transparent;
+  font-size: 48px;
+  height: 70px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #333;
+  width: 72px;
+}
+
+.dark_square {
+  color: orange;
+  background: #009999;
+  font-size: 48px;
+  height: 70px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #333;
+  width: 72px;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#009999), color-stop(100%,#1d7373)); /* Chrome,Safari4+ */
+}
+
+
+
 /*
 
 Some references you may find useful:
